@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-/* MAIN LOGIN WRAPPER */
 .login-container {
     width: 90%;
     max-width: 1300px;
@@ -23,7 +22,7 @@ body {
     align-items: center;
 }
 
-/* LEFT SIDE */
+
 .form-section {
     width: 40%;
 }
@@ -94,14 +93,12 @@ body {
     background: #1f3d18;
 }
 
-/* OR */
 .or {
     text-align: center;
     color: #666;
     margin: 15px 0;
 }
 
-/* SOCIAL BUTTONS */
 .social-buttons {
     display: flex;
     gap: 10px;
@@ -190,3 +187,4 @@ body {
 .footer-col a:hover{
     color: #000;
 }
+
