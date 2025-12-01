@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout-style.css">
+</head>
+
+<body>
+
+<h1 class="checkout-title">CHECKOUT</h1>
+
+<div class="checkout-box">
+
+    <div class="overall-box">
+        <h2>Personal Details</h2>
+        <div class="two-inner-boxes">
+            <div class="form">
+                <label>First name</label>
+                <input type="text" placeholder="Enter your first name">
+            </div>
+            <div class="form">
+                <label>Last name</label>
+                <input type="text" placeholder="Enter your last name">
+            </div>
+        </div>
+
+        <div class="two-inner-boxes">
+            <div class="form">
+                <label>Email Address</label>
+                <input type="email" placeholder="abcxyz@gmail.com">
+            </div>
+            <div class="form">
+                <label>Phone number</label>
+                <input type="text" placeholder="03xx-xxxxxxx">
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="overall-box">
+        <h2>Shipping Address</h2>
+
+        <div class="two-inner-boxes">
+            <div class="form">
+                <label>Address</label>
+                <input type="text" placeholder="House no abc, street xyz">
+            </div>
+            <div class="form">
+                <label>City</label>
+                <input type="text" placeholder="Enter your City">
+            </div>
+        </div>
+
+        <div class="two-inner-boxes">
+            <div class="form">
+                <label>Country</label>
+                <input type="text" placeholder="Enter country">
+            </div>
+            <div class="form">
+                <label>Postal code</label>
+                <input type="text" placeholder="xxxxx">
+            </div>
+        </div>
+    </div>
+
+    <!-- PAYMENT -->
+    <div class="overall-box">
+        <h2>Payment Methods</h2>
+
+        <div class="payment-icons">
+            <img src="visa.png" >
+            <img src="visa2.png" >
+            <img src="google.png" >
+            <img src="flaticon.png">
+        </div>
+
+        <div class="two-inner-boxes">
+            <div class="form">
+                <label>Card holder name</label>
+                <input type="text" placeholder="abd xyz">
+            </div>
+            <div class="form">
+                <label>Card number</label>
+                <input type="text" placeholder="1234 5678 91011">
+            </div>
+        </div>
+
+        <div class="two-inner-boxes">
+            <div class="form">
+                <label>Card Verification Value</label>
+                <input type="text" placeholder="123">
+            </div>
+            <div class="form">
+                <label>Expiry date</label>
+                <input type="text" placeholder="0x/20xx">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- BILLING ADDRESS -->
+    <div class="overall-box">
+        <h2>Billing Address</h2>
+
+        <div class="two-inner-boxes">
+            <div class="form">
+                <label>Address</label>
+                <input type="text" placeholder="House no 123, street 1">
+            </div>
+            <div class="form">
+                <label>City</label>
+                <input type="text" placeholder="Enter your city">
+            </div>
+        </div>
+
+        <div class="two-inner-boxes">
+            <div class="form">
+                <label>Country</label>
+                <input type="text" placeholder="Enter Country">
+            </div>
+            <div class="form">
+                <label>Postal code</label>
+                <input type="text" placeholder="12345">
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCT SUMMARY -->
+    <div class="overall-box">
+
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>PRODUCT</th>
+                    <th>PRICE</th>
+                    <th>QTY</th>
+                    <th>UNIT PRICE</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="product-info">
+                        <p style="color: red">x</p>
+                        <img src="product7_mask.png" alt="hair mask">   
+                        <span>Elmore Luxe Ultimate Mask</span>
+                    </td>
+                    <td>Rs. 7,999</td>
+                    <td class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </td>
+                    <td>Rs. 7,999</td>
+                </tr>
+
+                <tr>
+                    <td class="product-info">
+                        <p style="color: red">x</p>
+                        <img src="product4_oil.png" alt="hair oil picture" >
+                        <span>Intense Growth Hair Oil</span>
+                    </td>
+                    <td>Rs. 4,499</td>
+                    <td class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </td>
+                    <td>Rs. 4,499</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="summary-box">
+            <p>Subtotal: <span>Rs 12,498</span></p>
+            <p>Shipping fee: <span>Rs 600</span></p>
+            <p>Tax: <span>Rs 2,020</span></p>
+            <h3>Total: <span>Rs 20,918</span></h3>
+
+            <button class="checkout-btn">Check Out</button>
+            <button class="continue-btn">Continue Shopping</button>
+        </div>
+    </div>
+
+    <footer class="footer-section">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>TressTherapy</h2>
+
+            <div class="footer-icons">
+                <img src="facebook.png" alt="facebook">
+                <img src="linkedln.png" alt="linkedin">
+                <img src="youtube.png" alt="youtube">
+                <img src="instagram.png" alt="instagram">
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>About</h3>
+            <a href="#">Sign up</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Return</a>
+        </div>
+
+        <div class="footer-col">
+            <h3>Terms of Use</h3>
+            <a href="#">Email</a>
+            <a href="#">Phone</a>
+            <a href="#">Address</a>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact Us</h3>
+            <a href="#">Site Map XML</a>
+            <a href="#">FAQ</a>
+            <a href="#">Consumer Health Data</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+    </div>
+
+</footer>
+
+
+</div>
+
+
+
+
+</body>
+</html>
