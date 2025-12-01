@@ -1,0 +1,192 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #beafaf;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* MAIN LOGIN WRAPPER */
+.login-container {
+    width: 90%;
+    max-width: 1300px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LEFT SIDE */
+.form-section {
+    width: 40%;
+}
+
+.welcome {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.login-form label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login-form input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Remember + Forgot */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.remember input {
+    margin-right: 5px;
+}
+
+.forgot {
+    font-size: 13px;
+    color: #2a5db0;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    margin-top: 10px;
+    padding: 12px;
+    background: #294d22;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.login-btn:hover {
+    background: #1f3d18;
+}
+
+/* OR */
+.or {
+    text-align: center;
+    color: #666;
+    margin: 15px 0;
+}
+
+/* SOCIAL BUTTONS */
+.social-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.google-btn,
+.facebook-btn {
+    flex: 1;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #2a5db0;
+    text-decoration: none;
+}
+
+
+.footer-section{
+    background: #ffffff;
+    padding: 40px 0;
+    border-top: 1px solid #e1e1e1;
+}
+
+.footer-inner{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+
+.footer-brand h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 12px;
+    margin-top: 80px; 
+}
+
+.footer-icons img{
+    width: 18px;
+    height: 18px;
+    opacity: 0.7;
+}
+
+.footer-icons img:hover{
+    opacity: 1;
+}
+
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-col h3{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-col a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-col a:hover{
+    color: #000;
+}
