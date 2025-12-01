@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +21,6 @@ h2{
     margin: 40px auto;
 }
 
-/* LAYOUT */
 .cart {
     display: flex;
     justify-content: space-between;
@@ -29,7 +28,6 @@ h2{
     gap: 40px;
 }
 
-/* TABLE */
 .product-table {
     width: 65%;
     border-collapse: collapse;
@@ -79,7 +77,6 @@ h2{
     font-size: 16px;
 }
 
-/* SUMMARY BOX */
 .Bill {
     width: 30%;
     background: white;
@@ -102,7 +99,6 @@ h2{
     font-weight: 600;
 }
 
-/* BUTTONS */
 .checkout-button,
 .savelater-button,
 .continue-button {
@@ -186,3 +182,4 @@ h2{
 .footer-col a:hover {
     color: #000;
 }
+
