@@ -224,18 +224,4 @@ body{
     color: #000;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px){
-    .two-col{
-        flex-direction: column;
-    }
 
-    .summary-box{
-        width: 100%;
-    }
-
-    .footer-inner{
-        flex-direction: column;
-        gap: 30px;
-    }
-}
