@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="product-listing-page.css">
+
+   
+</head>
+<body>
+
+    <div class="bigger-container">
+        <div>
+            <h1>Shop from Us</h1>
+            <p>Get the best oil products to nourish your hair beautifully. (AI-generated image in background)</p>
+        </div>
+    </div>
+    <div style="width: 300px; margin: 20px auto;">
+    <select id="filter" 
+            style="width: 100%; padding: 10px; font-size: 16px;"
+            onchange="filterProducts()">
+
+        <option value="all">Show All Products</option>
+        <option value="best selling">best selling</option>
+        <option value="price:low to high">price:low to high</option>
+        <option value="price:high to low">price:high to low</option>
+        <option value="new to old">new to old</option>
+        <option value="old to new">old to new</option>
+
+    </select>
+</div>
+    <!-- PRODUCT LIST -->
+    <div class="container">
+
+        <div class="multiple-products">
+
+            <!-- PRODUCT 1 -->
+            <div class="products">
+                <img src="product1_shampoo.png" alt="picture of shampoo bottle" style="width: 300px; height: 300px">
+                <div class="product-title">L'oreal extraordinary oil Serum</div>
+                <div class="product-desc">A treatment enriched with flower oils, nourishing dry, frizzy, and rough hair. (Generated using NanoBanana AI)</div>
+                <div class="rating">★★★★★</div>
+                <div class="price">$12.99</div>
+                <a class="btn-buy">Buy Now</a>
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="products">
+                <img src="product2_oil.png" alt="picture of hair oil" style="width: 300px; height: 300px">
+                <div class="product-title">Moroccan Oil</div>
+                <div class="product-desc">A nourishing formula for smooth, shiny, frizz-free hair.  (Generated using NanoBanana AI)</div>
+                <div class="rating">★★★★★</div>
+                <div class="price">$21.99</div>
+                <a class="btn-buy">Buy Now</a>
+            </div>
+
+            <!-- PRODUCT 3 -->
+            <div class="products">
+                <img src="product3_shampoo.png" alt="picture of hair conditioner" style="width: 300px; height: 300px" >
+                <div class="product-title">Castor Growth Hair Oil</div>
+                <div class="product-desc">Deep scalp nourishment to strengthen and boost hair density.  (Generated using NanoBanana AI)</div>
+                <div class="rating">★★★★☆</div>
+                <div class="price">$9.49</div>
+                <a class="btn-buy">Buy Now</a>
+            </div>
+
+            <!-- PRODUCT 4 -->
+            <div class="products">
+                <img src="product4_oil.png" alt="picture of essential conditioner" style="width: 300px; height: 300px" >
+                <div class="product-title">Rejuveniqe Essential Oil</div>
+                <div class="product-desc">Enriched with hydrating natural botanicals to revive hair.  (Generated using NanoBanana AI)</div>
+                <div class="rating">★★★★★</div>
+                <div class="price">$17.49</div>
+                <a class="btn-buy">Buy Now</a>
+            </div>
+
+            <!-- PRODUCT 5 -->
+            <div class="products">
+                <img src="product5_conditioner.png" alt="picture of essential conditioner" style="width: 300px; height: 300px">
+                <div class="product-title">Dove Hair Therapy Oil</div>
+                <div class="product-desc">Moisturizes and restores damaged strands.  (Generated using NanoBanana AI)</div>
+                <div class="rating">★★★★☆</div>
+                <div class="price">$7.99</div>
+                <a class="btn-buy">Buy Now</a>
+            </div>
+
+            <!-- PRODUCT 6 -->
+            <div class="products">
+                <img src="product6_oil.png" alt="picture of essential conditioner" style="width: 300px; height: 300px">
+                <div class="product-title">Nutri-Keratin Hair Mask</div>
+                <div class="product-desc">Deep conditioning repair mask for smooth strong hair.  (Generated using NanoBanana AI)</div>
+                <div class="rating">★★★★★</div>
+                <div class="price">$14.99</div>
+                <a class="btn-buy">Buy Now</a>
+            </div>
+
+            <!-- PRODUCT 7 -->
+            <div class="products">
+                <img src="product7_mask.png" alt="picture of essential conditioner" style="width: 300px; height: 300px">
+                <div class="product-title">OGX Coconut Serum</div>
+                <div class="product-desc">Protective serum for silky and glossy locks.  (Generated using NanoBanana AI)</div>
+                <div class="rating">★★★★★</div>
+                <div class="price">$10.99</div>
+                <a class="btn-buy">Buy Now</a>
+            </div>
+
+            <!-- PRODUCT 8 -->
+            <div class="products">
+                <img  src="product7_mask.png" alt="picture of essential conditioner" style="width: 300px; height: 300px">
+                <div class="product-title">Ocean Revival Serum</div>
+                <div class="product-desc">Hydration and shine with marine botanicals.  (Generated using NanoBanana AI)</div>
+                <div class="rating">★★★★☆</div>
+                <div class="price">$13.79</div>
+                <a class="btn-buy">Buy Now</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+        <div class="footer-inner">
+
+            <div class="footer-brand">
+                <h2>TressTherapy</h2>
+
+                <div class="footer-icons">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="youtube">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram">
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>About</h3>
+                <a href="#">Sign up</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Return</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Terms of Use</h3>
+                <a href="#">Email</a>
+                <a href="#">Phone</a>
+                <a href="#">Address</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <a href="#">Site Map XML</a>
+                <a href="#">FAQ</a>
+                <a href="#">Consumer Health Data</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
